@@ -1,0 +1,622 @@
+body {
+  font-size: 16px;
+
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 23%, #FFFB7D 60%, #ffffff 100%);
+
+  background-color: #EFF5F5;
+  font-family: 'Oxygen', sans-serif;
+}
+.mainpage {
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+.ordernoww a{
+text-decoration: none;
+text-align: center;
+font-size: 25px;
+text-shadow: black;
+margin-left: 480px;
+font-family:  'Special Elite', cursive;
+font-weight: bold;
+color: #95BDFF;
+}
+.ordernoww:hover a:hover{
+text-decoration: none;
+font-size: 29px;
+font-size: 25px;
+text-shadow: black;
+
+
+font-family:  'Special Elite', cursive;
+font-weight: bold;
+color: #95BDFF;
+}
+
+
+
+.priceframe{
+background-color: #609966;
+padding-bottom: 30px;
+}
+
+#header-nav{
+background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 23%, #E0C3FC 75%);
+border-radius:0px;
+border:0px;
+}
+
+#logo-img{
+  background: url("C:/Users/Lenovo/Downloads/corsera fulll codee/fullstack-course4-master/examples/Lecture30/after/images/restaurant-logo_large.png") no-repeat;
+  width: 150px;
+  height:150px;
+  margin:10px 15px 10px 0;
+}
+
+.navbar-brand{
+  padding-top:30px;
+  padding-left: 50px;
+
+}
+
+#tasty:hover{
+  pointer-events: none;
+}
+
+.navbar-brand h1{
+font-family: 'Quicksand', sans-serif;
+color:#20262E;
+font-size:35px;
+text-orientation: uppercase;
+font-weight:bold;
+text-shadow:1px 1px 1px #222;
+margin-top:0;
+margin-bottom:0;
+line-height:.75;
+}
+
+.navbar-brand h1:hover,.navbar-brand h1:focus{
+   text-decloration:none;
+}
+
+
+.navbar-brand p {
+  color:#06283D;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top:10px;
+}
+.navbar-brand p span{
+  vertical-align: middle;
+  font-weight:900;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+
+#nav-list a figcaption {
+  font-size: 16px;
+  color: #18122B;
+  font-family: 'Special Elite', cursive;
+}
+
+#phone {
+  margin-top: 5px;
+  color: #03001C ;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  font-size:18px ;
+  padding-bottom: 0;
+  color: #03001C;
+  font-weight: 800;
+}
+
+#phone div { /* We Deliver */
+  color: #332C39;
+  text-align: right;
+  padding-right: 18px;
+  font-family: 'Special Elite', cursive;
+  font-weight: 800;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1.5px solid #181823;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* END HEADER */
+
+.panel-footer{
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom:30px;
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+  border-top:0px;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #14274E;
+  font-size: 20px;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+  background: url("C:/Users/Lenovo/Downloads/download (11).jpg") no-repeat;
+  background-position: center;
+
+}
+#specials-tile {
+  background: url("C:/Users/Lenovo/Downloads/IMAGESWEBRESTRO/specials-tile.jpg") no-repeat;
+  background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile { 
+  position: relative;
+  overflow: hidden;
+  width: 350px;
+  height: 300px;
+  margin: 30px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+.slideimage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  width: 85%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  margin-bottom: 20px;
+
+
+}
+
+.smilies img{
+  width: 30px;
+  animation:smilies 7s linear infinite;
+
+}
+.smilies{
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  position:absolute;
+  bottom:0;
+}
+
+a >img{
+  height: 40px;
+  width: 40px;
+  padding: 0px;
+  margin: 0px;
+}
+@keyframes smilies{
+
+ 0%{
+     transform: translateY(0);
+     opacity:0;
+ }
+
+ 50%{
+     
+     opacity:1;
+ }
+
+ 70%{
+     opacity:1;
+ }
+
+ 100%{
+     transform: translateY(-80vh);
+     opacity:0;
+ }
+
+}
+.smilies img:nth-child(1){
+  animation-delay: 0.6s;
+}
+.smilies img:nth-child(2){
+  animation-delay: 1s;
+}
+.smilies img:nth-child(3){
+  animation-delay: 3.5s;
+}
+.smilies img:nth-child(4){
+  animation-delay: 3s;
+}
+.smilies img:nth-child(5){
+  animation-delay: 0.9s;
+}
+.smilies img:nth-child(6){
+  animation-delay: 4.8s;
+}
+.smilies img:nth-child(7){
+  animation-delay: 1.9s;
+}
+.smilies img:nth-child(8){
+  animation-delay: 3.8s;
+}
+.smilies img:nth-child(9){
+  animation-delay: 6.8s;
+}
+.smilies img:nth-child(10){
+  animation-delay: 4.4s;
+}
+.smilies img:nth-child(11){
+  animation-delay: 2.3s;
+}
+.smilies img:nth-child(12){
+  animation-delay: 0.2s;
+}
+.smilies img:nth-child(13){
+  animation-delay: 2.9s;
+}
+.smilies img:nth-child(14){
+  animation-delay: 3.8s;
+}
+
+
+
+.category-tile span {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #14274E;
+  color: #F4F9F9;
+  opacity: .8;
+}
+
+
+
+
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #222831;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+  backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+
+.image__overlay>* {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover>* {
+  transform: translateY(0);
+}
+
+.image__title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.category-tile:hover {
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+
+#menu-categories-title{
+  color: #041562;
+  text-shadow: 2px 2px #495464;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 800;
+  font-family: 'Special Elite', cursive;
+
+}
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile hr {
+  width: 80%;
+}
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align:center;
+}
+.menu-item-description {
+  padding-right: 30px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+/* END SINGLE CATEGORY PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+ .container .jumbotron {
+    background: url("   C:/Users/Lenovo/Downloads/IMAGESWEBRESTRO/jumbotron_1200.jpg    ") no-repeat;
+    height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url("C:/Users/Lenovo/Downloads/corsera fulll codee/fullstack-course4-master/examples/Lecture34/after/images/restaurant-logo_medium.png") no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+.container .jumbotron {
+    background: url("C:/Users/Lenovo/Downloads/IMAGESWEBRESTRO/jumbotron_992.jpg") no-repeat;
+    height: 558px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.container .jumbotron {
+    background: url('C:/Users/Lenovo/Downloads/IMAGESWEBRESTRO/jumbotron_768.jpg') no-repeat;
+    height: 432px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 20px;
+    padding: 5px;
+    font-weight: 800;
+    border: 2px solid #B4E4FF;
+    background-color: #ECF2FF;
+    color: #3A98B9;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+.panel-footer section{
+  margin-bottom:30px;
+  text-align:center;
+}
+
+.panel-footer section:nth-child(1){
+  margin-bottom:0px;
+}
+.panel-footer section hr{
+  width:50%;
+}
+
+ /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  #menu-tile, #specials-tile{
+    width:360px;
+    margin:0 auto 15px auto;
+
+  }
+  .menu-item-photo{
+
+   margin-right:auto;
+
+
+  }
+  .menu-item-description{
+    text-align:center ;
+  }
+
+}
+@media(max-width: 479px){
+  .navbar-brand h1 {
+    padding-top: 5px;
+    font-size:6vw;
+  }
+
+  #menu-tile, #specials-tile{
+    width:280px;
+    margin:0 auto 15px auto;
+  }
+
+/* WE GOT ALL THESE FROM BOOTSTRAP */
+.col-xxs-12{
+  position:relative;
+  min-height:15px;
+  padding-right:15px;
+  padding-left:15px;
+  float:left;
+  width:100%;
+}
+}
